@@ -1,75 +1,119 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>ABC Fund</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<script src="js/jquery.min.js"></script>
-		<script src="js/config.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script type="text/javascript">
-		    function toggle_visibility(id) {
-		       var e = document.getElementById(id);
-		       if(e.style.display == 'block')
-		          e.style.display = 'none';
-		       else
-		          e.style.display = 'block';
-		    }
-		</script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-	</head>
-	<body>
-	<div class="wrapper wrapper-style1 wrapper-first">
-		<article class="container" id="about-us">
-			<div class="row">
-				<img src="images/logo.png" alt="ABC Fund Logo" style="width: 50%; float: center; padding-bottom: 50px;">
-				<br/><br/>
-				<div style="float: center; width:70%;" class="-2u">
-					<header>
-						<h1>Hi, we are ABC Fund.</h1>
-					</header>
-<p>
-Blockchain has been the new big thing. As an innovative and revolutionary
-technology that could fundamentally reshape our world, it has sparkled
-great interests from technology, finance and academia communities.
-However, following the big monetary incentive, especially from its most
-well-known application, cryptocurrencies, blockchain was sometimes used
-as a hoax to draw big and fast cash, which in turn leads to bad press and
-churns.
-</p>
-<p>
-ABC Fund is backed by the strong technology background of ABC Foundation.
-We invest in the real innovative blockchain technologies. We help them thrive,
-and make profits for our investors.
-</p>
-						</div>
-					</div>
-				</article>
-			</div>
+  <head>
+    <title>ABC Fund</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script type="text/javascript">
+      function toggle_visibility(id) {
+        var e = document.getElementById(id);
+        if(e.style.display == 'block') {
+          e.style.display = 'none';
+        } else {
+          e.style.display = 'block';
+        }
+      }
+    </script>
+    <noscript>
+      <link rel="stylesheet" href="css/skel-noscript.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-desktop.css" />
+    </noscript>
+  </head>
 
-		<!-- Contact -->
-			<div class="wrapper wrapper-style4">
-				<article id="contact" class="container small">
-					<header>
-						<h2>Want to discuss? Get in touch!</h2>
-						<span>You can reach us via email: <a href="mailto:hello@abc-fund.com">hello@abc-fund.com</a></span>
-					</header>
-						<div class="row">
-							<div class="12u">
-								<div align='center'>
-								&copy; 2018 ABC Fund <br>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-			</div>
+  <body>
+    <!-- Navigation -->
+    <nav id="nav">
+      <ul class="container">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#top">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
+    <!-- Home -->
+    <div class="wrapper wrapper-style1 wrapper-first">
+      <article class="container" id="home">
+        <div class="row">
+          <img src="images/logo.png" alt="ABC Fund Logo" style="width: 50%; float: center; padding-bottom: 50px;">
+	  <br><br>
+          <div style="float: center; width:70%;" class="-2u">
+            <header>
+              <h2>Hi, we are ABC Fund.</h2>
+            </header>
+            <p>
+              Blockchain has been the new big thing. As an innovative and revolutionary
+              technology that could fundamentally reshape our world, it has sparkled
+              great interests from technology, finance and academia communities.
+              However, following the big monetary incentive, especially from its most
+              well-known application, cryptocurrencies, blockchain was sometimes used
+              as a hoax to draw big and fast cash, which in turn leads to bad press and
+              churns.
+            </p>
+            <p>
+              ABC Fund is backed by the strong technology background of ABC Foundation.
+              We invest in the real innovative blockchain technologies. We help them thrive,
+              and make profits for our investors.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
 
-	</body>
+    <!-- Team -->
+    <div class="wrapper wrapper-style2">
+      <article class="container" id="top">
+        <header>
+          <center><h1>Team</h1></center>
+        </header>
+        <br><br>
+
+        <div class="row">
+          <div class="4u" style="padding-left: 120px;">
+            <span class="me image image-full"><img src="images/junhong.jpg" alt="Jun Hong's picture"/></span>
+          </div>
+          <div class="8u" style="padding-left: 180px;">
+            <h2>Jun Hong</h2>
+            <br>
+	    <p>TODO(Jun Hong): Current position.</p>
+            <p>Senior Software Engineer at Google</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="4u" style="padding-left: 120px;">
+            <span class="me image image-full"><img src="images/danyhoude.jpg" alt="Dany Houde's picture"/></span>
+          </div>
+          <div class="8u" style="padding-left: 180px;">
+            <h2>Dany Houde</h2>
+            <br>
+	    <p>TODO(Jun Hong): Current position.</p>
+            <p>Software Development Engineer at Amazon</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Contact -->
+    <div class="wrapper wrapper-style4">
+      <article id="contact" class="container small">
+        <header>
+          <h2>Want to discuss? Get in touch!</h2>
+          <span>You can reach us via email: <a href="mailto:hello@abc-fund.com">hello@abc-fund.com</a></span>
+        </header>
+        <div class="row">
+          <div class="12u">
+            <div align='center'>
+              &copy; 2018 ABC Fund <br>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </body>
 </html>
+
