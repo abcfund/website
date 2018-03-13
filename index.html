@@ -1,6 +1,26 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 10px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
     <title>ABC Fund</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
@@ -73,50 +93,84 @@
         <br><br>
 
         <div class="row">
-          <div class="4u" style="padding-left: 120px;">
-            <span class="me image image-full"><img src="images/hong1.jpg" alt="Jun Hong's Picture"/></span>
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/hong1.jpg" alt="Jun Hong's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>John Hong</b>
+                  <br><br>
+                  <font size="3">
+                    Founder of ABC (Alpha Blockchain Community)
+                    <br><br>
+                    Ex-Google, Microsoft, Amazon
+                  </font>
+                </p>
+              </center>
+            </div>
           </div>
-          <div class="8u" style="padding-left: 180px;">
-            <h2>John Hong</h2>
-            <br>
-	          <p>Founder of ABC (Alpha Blockchain Community)</p>
-            <p>Ex-Google, Microsoft, Amazon</p>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="4u" style="padding-left: 120px;">
-            <span class="me image image-full"><img src="images/houde1.jpg" alt="Dany Houde's Picture"/></span>
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/houde1.jpg" alt="Dany Houde's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>Dany Houde</b>
+                  <br><br>
+                  <font size="3">
+                    Crypto Investor
+                    <br><br>
+                    Ex-Amazon, University of Waterloo
+                  </font>
+                </p>
+              </center>
+            </div>
           </div>
-          <div class="8u" style="padding-left: 180px;">
-            <h2>Dany Houde</h2>
-            <br>
-	          <p>Crypto Investor</p>
-            <p>Ex-Amazon, University of Waterloo</p>
-          </div>
-        </div>
 
-				<div class="row">
-          <div class="4u" style="padding-left: 120px;">
-            <span class="me image image-full"><img src="images/gong.jpg" alt="Hua Gong's Picture"/></span>
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/gong.jpg" alt="Hua Gong's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>Hua Gong</b>
+                  <br><br>
+                  <font size="3">
+                    Crypto Investor
+                    <br><br>
+                    Blockchain and Crypto Tokens Exchange Researcher
+                  </font>
+                </p>
+              </center>
+            </div>
           </div>
-          <div class="8u" style="padding-left: 180px;">
-            <h2>Hua Gong</h2>
-            <br>
-	          <p>Crypto Investor</p>
-            <p>Blockchain and Crypto Tokens Exchange Researcher</p>
-          </div>
-        </div>
 
-				<div class="row">
-          <div class="4u" style="padding-left: 120px;">
-            <span class="me image image-full"><img src="images/yang.jpg" alt="Dany Houde's Picture"/></span>
-          </div>
-          <div class="8u" style="padding-left: 180px;">
-            <h2>Yangyang Tu</h2>
-            <br>
-	          <p>Director at King Force Group (HK08315)</p>
-            <p>Angel investor in blockchain and crypto currency</p>
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/yang.jpg" alt="Dany Houde's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>Yangyang Tu</b>
+                  <br><br>
+                  <font size="3">
+                    Director at King Force Group (HK08315)
+                    <br><br>
+                    Angel investor in blockchain and crypto currency
+                  </font>
+                </p>
+              </center>
+            </div>
           </div>
         </div>
       </article>
