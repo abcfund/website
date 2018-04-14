@@ -50,6 +50,7 @@
     <nav id="nav">
       <ul class="container">
         <li><a href="#home">Home</a></li>
+        <li><a href="#top">Team</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -74,10 +75,102 @@
               churns.
             </p>
             <p>
-              ABC Fund is backed by the strong technology background of ABC Blockchain Foundation.
+              ABC Fund is backed by the strong technology background of ABC Foundation.
               We invest in the real innovative blockchain technologies. We help them thrive,
               and make profits for our investors.
             </p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Team -->
+    <div class="wrapper wrapper-style2">
+      <article class="container" id="top">
+        <header>
+          <center><h1>Team</h1></center>
+        </header>
+        <br><br>
+
+        <div class="row">
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/hong1.jpg" alt="Jun Hong's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>John Hong</b>
+                  <br><br>
+                  <font size="3">
+                    Founder of ABC (Alpha Blockchain Community)
+                    <br><br>
+                    Ex-Google, Microsoft, Amazon
+                  </font>
+                </p>
+              </center>
+            </div>
+          </div>
+
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/houde1.jpg" alt="Dany Houde's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>Dany Houde</b>
+                  <br><br>
+                  <font size="3">
+                    Crypto Investor
+                    <br><br>
+                    Ex-Amazon, University of Waterloo
+                  </font>
+                </p>
+              </center>
+            </div>
+          </div>
+
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/gong.jpg" alt="Hua Gong's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>Hua Gong</b>
+                  <br><br>
+                  <font size="3">
+                    Crypto Investor
+                    <br><br>
+                    Blockchain and Crypto Tokens Exchange Researcher
+                  </font>
+                </p>
+              </center>
+            </div>
+          </div>
+
+          <div class="column">
+            <div>
+              <span class="me image image-full" style="width:100%; height:100%"><img src="images/yang.jpg" alt="Dany Houde's Picture"/></span>
+            </div>
+            <div>
+              <center>
+                <p style="line-height: 1.1">
+                  <br>
+                  <b>Yangyang Tu</b>
+                  <br><br>
+                  <font size="3">
+                    Director at King Force Group (HK08315)
+                    <br><br>
+                    Angel investor in blockchain and crypto currency
+                  </font>
+                </p>
+              </center>
+            </div>
           </div>
         </div>
       </article>
